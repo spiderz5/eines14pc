@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["name","console","log"],"mappings":";AAAA,IAAMA,EAAO,QACbC,QAAQC,IAAaF,SAAAA,OAAAA,EAArB","file":"eines14.75f5ab2c.js","sourceRoot":"..","sourcesContent":["const name = \"world\";\nconsole.log(`Hello ${name}!`);\n"]}
