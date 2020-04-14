@@ -2,7 +2,7 @@
   "name": "eines14",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
