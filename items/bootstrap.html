@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Petita enciclopèdia de conceptes relacionats amb el desenvolupament front-end">
+<meta name="author" content="Josep Serra">
+<title>Bootstrap - UOC -  Enciclopèdia Front-end</title>
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,800,300" rel="stylesheet" type="text/css">
+<link
+link
+rel="stylesheet"
+href="../node_modules/@fortawesome/fontawesome-free/css/all.css"
+/>
+<link
+link
+rel="stylesheet"
+href="../node_modules/bootstrap-css-only/css/bootstrap.min.css"
+/>
+<link href="../css/style.css" rel="stylesheet">
+
+<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body  class="sec_item  cat_css">
+<header>
+  <div class="capçalera">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-5"> <a  href="../index.html"> <img  src="../img/df_logo.png" alt="Desenvolupament Front-End"></a> </div>
+        <div class="col-md-8 col-7">
+          <nav class="menu">
+            <ul >
+              <li> <a href="../index.html">Inici</a></li>
+              <li class="submenu"> <a href="#" onclick="desplegaSubmenu()" class="linkDesplegaSubmenu">Categories</a>
+                <ul id="menuSubmenu" class="elementsSubmenu">
+                  <li> <a href="#">Llenguatges Front-End</a></li>
+                  <li> <a href="#">Module Bundlers</a></li>
+                  <li> <a href="../categoria/css-frameworks.html">CSS Frameworks</a></li>
+					      	<li> <a href="../categoria/llibreries-icones.html">Llibreries d'icones</a></li>
+                  <li> <a href="#">Frameworks Front-End</a></li>
+                  <li> <a href="#">Formats gràfics</a></li>
+                </ul>
+              </li>
+              <li> <a href="#" class="iconTwitter"><span class=" fab fa-twitter-square fa-2x"><span class="sr-only">Twitter</span></span></a> <a href="#" class="iconFacebook"> <span class="fab fa-facebook-square fa-2x"><span class="sr-only">Facebook</span> </span> </a> </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="titol-sec">
+    <div class="container">
+      <div class="titol-header">CSS <span>Frameworks</span> </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<article>
+<div class="container">
+  <div class="row header-item">
+    <div class="titol col-9">
+      <h1>Bootstrap</h1>
+    </div>
+    <div class="items-nav col-3"> 
+      <a href="foundation.html" title="Anterior item" ><span class="fas fa-chevron-left fa-lg"></span><span class="sr-only">Anterior item</span></a> 
+      <a class="tornarcataleg" href="../categoria/css-frameworks.html" title="CSS Frameworks"><span class="fas fa-th fa-lg"></span><span class="sr-only">CSS Frameworks</span></a>
+       <a href="foundation.html" title="Següent item"><span class="fas fa-chevron-right fa-lg"></span><span class="sr-only">Següent item</span></a>
+       </div> 
+       </div>
+  
+  <div class="row">
+    <div class="col-lg-2"> <img class="" src="../img/logos/bootstrap.svg" alt=""/> </div>
+    <div class="col-lg-6">
+      <p>
+      Toolkit de codi obert per desenvolupar amb HTML, CSS, i JS. Ràpid prototipatge  o construir una aplicació sencera amb variables Sass i mixins,
+       sistema de reixat responsiu, extens catàleg de components predefinits, i  potents plugins jQuery.
+     
+      </p>
+     
+     
+      <p> Parlem del segon projecte més reeixit de GitHub (126.000 estrelles),
+        amb una popularitat sense precedents en el desenvolupament Web. Va néixer com una simple eina interna de Twitter.
+        
+        </p> 
+      <p> 
+  
+           El seu gran ús ha ajudat al fet que tingui una evolució, adaptant-se a nous estàndards, fins a arribar al nostre dies amb Flex.
+     </p>    </div>
+    <div class="col-lg-4 text-upper">
+      <dl>
+        <dt>Darrera versió</dt><dd> 4.4.1</dd>
+        <dt>Tamany CSS comprimit</dt><dd> 68kb. Gzip: 12kb</dd>
+        <dt>Nombre d'elements</dt><dd> 49</dd>
+        <dt>Web</dt><dd> <a href="https://getbootstrap.com/">getbootstrap.com</a></dd>
+
+      </dl>
+    </div>
+  </div>
+
+  
+
+  <div class="row ">
+   
+    <div class="col-lg-6">
+      <p><strong>Avantatges</strong></p>
+      <ul>
+        <li>Components suficients i configurables per a qualsevol projecte.</li>
+        <li>Enorme suport de la comunitat, amb moltes extensions i preguntes resoltes en fòrums.</li>
+        <li>Documentació clara i ràpida de consultar.</li>
+        <li>Projecte madur amb una llarga trajectòria (7 anys).</li>
+        <li>El seu Reset CSS (anomenat Reboot), et permet usar-ho de manera independent al propi Bootstrap.</li>
+        <li>El nucli principal el desenvolupa un equip experimentat de Twitter.</li>
+    </ul>
+        </div>
+    <div class="col-lg-6">
+      <p><strong>Inconvenients</strong></p>
+      <ul>
+        <li>  Multitud de dependències, necessites enllaçar 4 arxius diferents (3 d'ells Javascript).
+        </li>
+        <li>  Complex a l'hora de modificar els seus estils.
+        </li>
+        <li>  T'obliga a maquetar amb un HTML poc flexible.
+        </li>
+        <li>  L'última versió (v4) dóna un gir dur. Perd compatibilitat amb versions anteriors i navegadors que no usin Flex (Safari 10, iOS6, IE8, IE9…).
+        </li>
+     
+    </ul>
+    </div>
+  </div>
+
+
+  <div class="row ">
+   
+    <div class="col-lg-12">
+      <p><strong>Exemple plantilla</strong></p>
+  <pre>&lt;!doctype html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+    ...
+        &lt;!-- Required meta tags --&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+    
+        &lt;!-- Bootstrap CSS --&gt;
+        &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"&gt;
+    ...
+      &lt;/head&gt;
+      &lt;body&gt;
+    ...
+        &lt;!-- Optional JavaScript --&gt;
+        &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+        &lt;script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"&gt;&lt;/script&gt;
+        &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"&gt;&lt;/script&gt;
+        &lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"&gt;&lt;/script&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</article>
+
+
+
+
+</main>
+<footer>
+<div class="container">
+<div class="row ">
+  <div class=" col-lg-12">
+    <p>Josep Serra </p>
+  </div>
+</div>
+</footer>
+<script src="../js/index.js"></script>
+
+</body>
+</html>

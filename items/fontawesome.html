@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Petita enciclopèdia de conceptes relacionats amb el desenvolupament front-end">
+<meta name="author" content="Josep Serra">
+<title>Font Awesome - UOC -  Enciclopèdia Front-end</title>
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,500,600,800,300" rel="stylesheet" type="text/css">
+<link
+link
+rel="stylesheet"
+href="../node_modules/@fortawesome/fontawesome-free/css/all.css"
+/>
+<link
+link
+rel="stylesheet"
+href="../node_modules/bootstrap-css-only/css/bootstrap.min.css"
+/>
+<link href="../css/style.css" rel="stylesheet">
+
+<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="sec_item cat_icon">
+<header>
+  <div class="capçalera">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-5"> <a  href="../index.html"> <img  src="../img/df_logo.png" alt="Desenvolupament Front-End"></a> </div>
+        <div class="col-md-8 col-7">
+          <nav class="menu">
+            <ul >
+              <li> <a href="../index.html">Inici</a></li>
+              <li class="submenu"> <a href="#" onclick="desplegaSubmenu()" class="linkDesplegaSubmenu">Categories</a>
+                <ul id="menuSubmenu" class="elementsSubmenu">
+                  <li> <a href="#">Llenguatges Front-End</a></li>
+                  <li> <a href="#">Module Bundlers</a></li>
+                  <li> <a href="../categoria/css-frameworks.html">CSS Frameworks</a></li>
+					      	<li> <a href="../categoria/llibreries-icones.html">Llibreries d'icones</a></li>
+                  <li> <a href="#">Frameworks Front-End</a></li>
+                  <li> <a href="#">Formats gràfics</a></li>
+                </ul>
+              </li>
+              <li> <a href="#" class="iconTwitter"><span class=" fab fa-twitter-square fa-2x"><span class="sr-only">Twitter</span></span></a> <a href="#" class="iconFacebook"> <span class="fab fa-facebook-square fa-2x"><span class="sr-only">Facebook</span> </span> </a> </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="titol-sec">
+    <div class="container">
+      <div class="titol-header">Llibreries <span>d'icones</span> </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<article>
+<div class="container">
+  <div class="row header-item">
+    <div class="titol col-9">
+      <h1>FontAwesome</h1>
+    </div>
+    <div class="items-nav col-3"> 
+      <a href="#" title="Anterior item" ><span class="fas fa-chevron-left fa-lg"></span><span class="sr-only">Anterior item</span></a> 
+      <a class="tornarcataleg" href="../categoria/llibreries-icones.html" title="Llibreries d'icones"><span class="fas fa-th fa-lg"></span><span class="sr-only">Llibreries d'icones</span></a>
+       <a href="#" title="Següent item"><span class="fas fa-chevron-right fa-lg"></span><span class="sr-only">Següent item</span></a>
+       </div>   </div>
+  
+  <div class="row ">
+    <div class="col-lg-2"> <img class="" src="../img/logos/fontawesome.svg" alt=""/> </div>
+    <div class="col-lg-6">
+    <p>  Llibreria d'icones vectorials que podem aplicar fàcilment a qualsevol web.</p>
+     <p>
+      
+Font Awesome és d'ús lliure, la qual cosa vol dir que podem implementar les icones en qualsevol projecte web amb finalitats comercials sense problemes.</p> 
+<p>
+Font Awesome pot ser utilitzat amb qualsevol framewwork, tanmateix és especialment fàcil d'utilitzar amb <a href="bootstrap.html">Bootstrap </a> </p>  </div>
+    <div class="col-lg-4 text-upper">
+      <dl>
+        <dt>Darrera versió</dt><dd> 5.13.0</dd>
+        <dt>Tamany CSS comprimit</dt><dd> variable</dd>
+        <dt>Nombre d'elements</dt><dd> 1588</dd>
+        <dt>Web</dt><dd> <a href="https://fontawesome.com/">fontawesome.com</a></dd>
+
+      </dl>
+    </div>
+  </div>
+ 
+  <div class="row ">
+   
+    <div class="col-lg-6">
+      <p><strong>Avantatges</strong></p>
+      <ul>
+        <li>Gran varietat  d'icones
+        </li>
+        <li>Contínuament actualitzat
+        </li>
+        <li>Compatible amb la majoria de dispositius i navegadors ja que no requereix de Javascript ni altres llibreries per al seu ús, només el suport de @font-face per part dels navegadors.
+        </li>
+        <li> Consistència a través de navegadors  </li>
+        <li>Compatible amb lectors de pantalla  </li>
+     
+    </ul>
+        </div>
+    <div class="col-lg-6">
+      <p><strong>Inconvenients</strong></p>
+      <ul>
+        <li> Mida de fitxer gran 
+
+        </li>
+        <li> Similitud entre diferents webs
+        
+        </li>
+        <li> Moltes dades inútils (icones sense utilitzar) son càrregades a la vostra aplicació.
+        
+        </li>
+       
+    </ul>
+    </div>
+  </div>
+  
+
+
+
+
+  <div class="row ">
+   
+    <div class="col-lg-8">
+      <p><strong>Codi d'exemple</strong></p>
+      <pre>
+
+  <span>&lt;<span>i</span> <span >class</span>=<span >"fas fa-calendar-alt fa-3x"</span>&gt;</span><span>&lt;/<span>i</span>&gt;</span>
+  <span>&lt;<span>i</span> <span >class</span>=<span >" fas fa-cut"</span> <span >style</span>=<span >"font-size:50px;"</span>&gt;</span><span>&lt;/<span>i</span>&gt;</span>
+  <span>&lt;<span>span</span> <span >class</span>=<span >" fas fa-glasses"</span> <span >style</span>=<span >"font-size:60px; color:red;"</span>&gt;</span><span>&lt;/<span>span</span>&gt;</span>
+        
+        </pre>
+  </div>
+
+  <div class="col-lg-4">
+    <p><strong>Resultat del codi d'exemple</strong></p>
+
+    <i class="fas fa-calendar-alt fa-3x"></i>
+		<i class="fas fa-cut" style="font-size:50px;"></i>
+		<span class="fas fa-glasses" style="font-size:60px; color:red;"></span>
+        
+
+</div>
+</div>
+
+
+
+
+<div class="row">
+  <div class="col-lg-12 fotos">
+    <p><strong>Exemple d'icones</strong></p>
+    
+    <img class="img-responsive" src="../img/fontawesome-icons.png" alt="Exemple d'icones"> </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</article>
+
+
+
+
+</main>
+<footer>
+<div class="container">
+<div class="row ">
+  <div class=" col-lg-12">
+    <p>Josep Serra </p>
+  </div>
+</div>
+</footer>
+<script src="../js/index.js"></script>
+
+</body>
+</html>
