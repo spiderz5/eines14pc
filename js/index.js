@@ -1,6 +1,13 @@
-function desplegaSubmenu() {
+function desplega() {
   document.getElementById("menuSubmenu").classList.toggle("mostra");
 }
+
+function load() {
+  var menudesplegable = document.getElementById("linkDesplegaSubmenu2");
+  menudesplegable.addEventListener("click", desplega, false);
+}
+
+document.addEventListener("DOMContentLoaded", load, false);
 
 window.onclick = function (event) {
   if (!event.target.matches(".linkDesplegaSubmenu")) {
