@@ -121,14 +121,8 @@ footer {
   text-align: center;
   font-size: 12px;
   padding: 50px 0px 20px;
-  color: #989898;
 }
-footer a {
-  color: #989898;
-}
-footer a:hover {
-  color: #000;
-}
+
 .fotoheader {
   padding-top: 50px;
   padding-bottom: 50px;
