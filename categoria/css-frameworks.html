@@ -38,12 +38,25 @@
       <div class="capçalera">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 col-5">
+            <div class="col-4">
               <a href="../index.html">
-                <img src="../img/df_logo.png" alt="Desenvolupament Front-End"
-              /></a>
+                <picture>
+                  <source
+                    media="(max-width: 768px)"
+                    srcset="../img/df_logo_2.png"
+                  />
+                  <source
+                    media="(min-width: 769px)"
+                    srcset="../img/df_logo.png"
+                  />
+                  <img
+                    src="../img/df_logo.png"
+                    alt="Desenvolupament Front-End"
+                  />
+                </picture>
+              </a>
             </div>
-            <div class="col-md-8 col-7">
+            <div class="col-8">
               <nav class="menu">
                 <ul>
                   <li><a href="../index.html">Inici</a></li>
