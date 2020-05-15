@@ -133,14 +133,26 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-5 order-1">
               <img
                 class=""
                 src="../img/logos/fontawesome.svg"
                 alt="FontAwesome"
               />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-3 text-upper col-7 order-lg-3 order-2">
+              <dl>
+                <dt>Darrera versió</dt>
+                <dd>5.13.0</dd>
+                <dt>Tamany CSS comprimit</dt>
+                <dd>variable</dd>
+                <dt>Nombre d'elements</dt>
+                <dd>1588</dd>
+                <dt>Web</dt>
+                <dd><a href="https://fontawesome.com/">fontawesome.com</a></dd>
+              </dl>
+            </div>
+            <div class="col-lg-7 col-12 order-lg-2 order-3">
               <p>
                 Llibreria d'icones vectorials que podem aplicar fàcilment a
                 qualsevol web.
@@ -156,18 +168,7 @@
                 <a href="bootstrap.html">Bootstrap </a>
               </p>
             </div>
-            <div class="col-lg-4 text-upper">
-              <dl>
-                <dt>Darrera versió</dt>
-                <dd>5.13.0</dd>
-                <dt>Tamany CSS comprimit</dt>
-                <dd>variable</dd>
-                <dt>Nombre d'elements</dt>
-                <dd>1588</dd>
-                <dt>Web</dt>
-                <dd><a href="https://fontawesome.com/">fontawesome.com</a></dd>
-              </dl>
-            </div>
+           
           </div>
 
           <div class="row">
@@ -226,11 +227,22 @@
             <div class="col-lg-12 fotos">
               <h2>Exemple d'icones</h2>
 
-              <img
+              <picture>
+               <source
+                  media="(max-width: 769px)"
+                  srcset="../img/fontawesome-icons_mobile.png"
+                /> 
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="../img/fontawesome-icons_medium.png"
+                />
+                
+                <img
                 class="img-responsive"
                 src="../img/fontawesome-icons.png"
                 alt="Exemple d'icones Font Awesome"
               />
+              </picture>
             </div>
           </div>
         </div>
@@ -239,9 +251,30 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-md-4 order-md-1 order-2">
             <p>Josep Serra</p>
+            <p>M4.257 - Eines HTML i CSS aula 1</p>
+            <p>PAC2</p>
           </div>
+          <div class="col-md-4 order-md-2 order-3">
+            <ul id="menuSubmenuFooter" class="">
+              <li><a href="#">Llenguatges Front-End</a></li>
+              <li><a href="#">Module Bundlers</a></li>
+              <li>
+                <a href="../categoria/css-frameworks.html">CSS Frameworks</a>
+              </li>
+              <li>
+                <a href="../categoria/llibreries-icones.html" 
+                  >Llibreries d'icones</a
+                >
+              </li>
+              <li><a href="#">Frameworks Front-End</a></li>
+              <li><a href="#">Formats gràfics</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 order-md-3 order-1">
+            <div id="sombraclip"> <div id="footer-clip"></div></div>
+         
         </div>
       </div>
     </footer>

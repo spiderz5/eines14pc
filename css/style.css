@@ -122,7 +122,7 @@ pre {
 }
 
 footer {
-  text-align: center;
+  margin-top: 120px;
   font-size: 12px;
   padding: 50px 0px 20px;
 }
@@ -147,6 +147,10 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 2em;
+}
+
+.titol-sec {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
 
 .cat_icon .titol-sec {
@@ -251,9 +255,31 @@ footer {
   max-height: 70px;
 }
 
+.cat-items a {
+  position: relative;
+}
+
+.cat-items a:before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #3085a3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .cat-items a:hover {
   text-decoration: none;
-  border-bottom: 2px solid #3085a3;
+}
+
+.cat-items a:hover::before {
+  width: 100%;
+  opacity: 1;
 }
 
 .header-item {
@@ -289,6 +315,16 @@ footer {
 footer {
   background: #f5f5f6;
 }
+ul#menuSubmenuFooter {
+  padding-left: 0px;
+}
+#menuSubmenuFooter li {
+  list-style: none;
+}
+#menuSubmenuFooter li a {
+  color: #000;
+}
+
 .tornar {
   text-align: center;
   letter-spacing: 2px;
@@ -300,6 +336,57 @@ footer {
   color: #000;
 }
 
+#footer-clip {
+  width: 200px;
+  height: 200px;
+
+  --clip-path: polygon(
+    70% 0,
+    40% 100%,
+    30% 100%,
+    60% 0,
+    60% -5%,
+    -5% -5%,
+    -5% 50%,
+    0 50%,
+    30% 30%,
+    30% 40%,
+    15% 50%,
+    30% 60%,
+    30% 70%,
+    0 50%,
+    -5% 50%,
+    -5% -5%,
+    -5% 105%,
+    105% 105%,
+    100% 50%,
+    70% 30%,
+    70% 40%,
+    85% 50%,
+    70% 60%,
+    70% 70%,
+    100% 50%,
+    105% 50%,
+    105% 105%,
+    -5% 105%,
+    -5% -5%
+  );
+
+  -webkit-clip-path: var(--clip-path);
+  clip-path: var(--clip-path);
+
+  content: "";
+  position: absolute;
+  top: -90px;
+  right: 0px;
+  bottom: 0;
+
+  background: #fff;
+}
+#sombraclip {
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.3));
+}
+
 @media (max-width: 768px) {
   .titol-header {
     font-size: 4rem;
@@ -307,5 +394,8 @@ footer {
   .menu {
     margin-top: 10px;
     font-size: 1.2rem;
+  }
+
+  #footer-clip {
   }
 }
