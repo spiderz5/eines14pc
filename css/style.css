@@ -374,13 +374,11 @@ ul#menuSubmenuFooter {
 
   -webkit-clip-path: var(--clip-path);
   clip-path: var(--clip-path);
-
   content: "";
   position: absolute;
   top: -90px;
   right: 0px;
   bottom: 0;
-
   background: #fff;
 }
 #sombraclip {
