@@ -90,11 +90,7 @@
   line-height: 0.75em;
   vertical-align: -0.0667em;
 }
-
-/*!
- * Bootstrap v4.4.1 Simplificat
-
- */
+/*  Bootstrap v4.4.1 Simplificat */
 :root {
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -471,11 +467,7 @@ pre {
     min-width: 992px !important;
   }
 }
-
-/*!
- * fi bootstrap
- */
-
+/* fi bootstrap */
 html {
   font-size: 10px;
 }
