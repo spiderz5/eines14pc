@@ -747,7 +747,8 @@ footer {
 }
 
 .cat-items img {
-  max-height: 70px;
+  max-width: 90px;
+  max-height: 90px;
 }
 
 .cat-items a {
